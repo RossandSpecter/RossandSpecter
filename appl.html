@@ -1,0 +1,86 @@
+<html>
+    <head>
+        <title>Job Application</title>
+        <link rel="stylesheet" href = "style.css">   
+    </head>
+    <body>
+        
+        <div class = "container">
+            <div class="navbar">
+                <img src = "generatedtext.png" class="generatedtext">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href= "team.html">Meet The Team</a></li>
+                    <li><a href="about.html">Why Choose Us</a></li>
+                    <li><a href="hiring.html">Hiring Positions</a></li>
+                    <li><a href="appl.html">Applications</a></li>
+                </ul>
+            </div>
+            <div class = "apply-box">
+                <h1>Job Application <span class="title"></span></h1>
+
+                <form action="">
+                    <div class="form-containter">
+                        <div class="form-control">
+                            <label for = "first-name">First Name</label>
+                            <input type = "text" id = "first-name" name = "first-name" placeholder = "Enter First Name">
+                        </div>
+                        
+                        <div class="form-control">
+                            <label for = "last-name">Last Name</label>
+                            <input type = "text" id = "last-name" name = "last-name" placeholder = "Enter Last Name">
+                        </div>
+                        
+                        <div class="form-control">
+                            <label for = "email">Email</label>
+                            <input type = "email" id = "email" name = "first-name" placeholder = "Enter Email">
+                        </div>
+
+                        <div class="form-control">
+                            <label for = "job-position">Job Position</label>
+                            <select id = "job-position" name = "first-name">
+                                    <option value = "">Select Position</option>
+
+                                    <option Value = "frontend">Junior Associate</option>
+                                    <option Value = "frontend">Paralegal</option>
+                                    <option Value = "frontend">Legal Secretary</option>
+                                    <option Value = "frontend">Human Resources</option>
+                            </select>
+
+
+                        </div>
+                    
+                        <div class="form-control">
+                            <label for = "address">Address</label>
+                           <textarea name = "address" id = " " cols = "5" rows = "5" placeholder ="Enter Full Address"></textarea>
+                        </div>
+
+                        <div class="form-control">
+                            <label for = "city">City</label>
+                            <input type = "text" id = "city" name = "city" placeholder = "Enter City">
+                        </div>
+                        
+                        <div class="form-control">
+                            <label for = "zipcode">Zipcode</label>
+                            <input type = "number" id = "first-name" name = "zipcode" placeholder = "Enter Zipcode">
+                        </div>
+
+                        <div class="form-control">
+                            <label for = "date">Date of Birth</label>
+                            <input type = "date" id = "first-name" name = "first-name" placeholder ="2022-01-01">
+                        </div>
+
+                        <div class="form-control">
+                            <label for = "first-name">Upload Your Resume</label>
+                            <input type = "file" id = "first-name" name = "first-name">
+                        </div>
+
+                        <div class="button-container">
+                            <button type = "submit"><span></span>Submit Application</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
